@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Nobile:regular,bold);
+
+body { font-family: Nobile, sans-serif; }
+#domainStatus { font-weight: bold; }
+p { white-space: nowrap; }
+.allowed { background-color: #e6f2e6; }
+.disallowed { background-color: #f2e6e6; }
+
+table#statusTable { border-collapse: collapse; }
+#statusTable td, #statusTable th { padding: 2px 7px; }
+#statusTable .perm { text-align: center; }
+#statusTable .domain { text-align: right; }
